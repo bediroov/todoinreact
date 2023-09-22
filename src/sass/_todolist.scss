@@ -1,0 +1,28 @@
+.todoapp{
+    list-style-type: none;
+    padding: 0;
+    
+    .todolist{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 10px;
+
+        .writing{
+            text-transform: uppercase;
+        }
+
+        .writingdone{
+            text-decoration: line-through;
+        }
+        .buttons button{
+          margin-right: 10px;
+          text-decoration: none;
+          outline: 0;
+          text-transform: none;
+          background-color: transparent;
+          border: 0;
+        }
+    }
+}
